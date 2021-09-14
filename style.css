@@ -131,6 +131,28 @@ header{
     height: 50px;
     background-color: maroon;
 }
+
+.debug > .txt_loghi{
+    height: 400px;
+}
+
+.debug > .cont_loghi{
+    height: 400px;
+    background-color: mediumvioletred;
+}
+
+.debug > .img_txt_loghi{
+    width: 20%;
+    height: 100px;
+    background-color: red;
+}
+
+.debug > .descri_loghi{
+    width: 80%;
+    height: 300px;
+    background-color: salmon;
+    margin: auto;
+}
 /* /Debug */
 
 
@@ -246,4 +268,57 @@ header{
     margin: 150px 0 50px 0;
 }
 /* 7Sezione 500.000 */
+
+
+/* Sezione Loghi Vari */
+.loghi{
+    display: flex;
+    flex-direction: row;
+}
+
+.cont_loghi{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.txt_loghi{
+    width: 50%;
+    background-color: #F5F5F5;
+}
+
+.piccolo_logo1{
+    background-color: midnightblue;
+}
+
+.piccolo_logo2{
+    background-color: navajowhite;
+}
+
+.piccolo_logo3{
+    background-color: olive;
+}
+
+.piccolo_logo4{
+    background-color: red;
+}
+
+.cont_piccolo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.piccolo_logo1, .piccolo_logo2, .piccolo_logo3, .piccolo_logo4{
+    width: 50%;
+    height: 100%;
+}
+
+.cont_piccolo2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+/* /Sezione Loghi Vari */
 /* /Parte Main */
