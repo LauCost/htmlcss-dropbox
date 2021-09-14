@@ -51,8 +51,25 @@ header{
 
 .debug > .img2 {
     width: 50%;
-    height: 500px;
+    height: 400px;
     background-color: darkblue;
+}
+
+.debug > h2{
+    width: 70%;
+    height: 100px;
+    background-color: rgb(0, 154, 160);
+}
+
+.debug > .opzioni{
+    width: 40%;
+    height: 50px;
+    background-color: chartreuse;
+}
+
+.debug > .tar, .debug > .tar_cent{
+    height: 700px;
+    background-color: cyan;
 }
 /* /Debug */
 
@@ -87,9 +104,37 @@ header{
 .img2{
     position: absolute;
     right: 0%;
-    bottom: -160px;
+    bottom: -60px;
 }
 
 /* /Sezione Tutto Ciò Che Ti Serve*/
+
+.cont_70{
+    width: 70%;
+    margin: 200px auto 0 auto;
+}
+
+/* Sezione Tariffe */
+.opzioni{
+    margin: 25px 0;
+}
+.tariffe{
+
+}
+
+.tre_tar{
+    display: flex;
+    flex-direction: row;
+}
+
+.tar, .tar_cent{
+    width: 30%;
+}
+
+.tar_cent{
+    margin: 0 5%;
+}
+
+/* Sezione Tariffe */
 
 /* /Parte Main */
