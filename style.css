@@ -71,6 +71,16 @@ header{
     height: 700px;
     background-color: cyan;
 }
+
+.debug > .titolino{
+    height: 50px;
+    background-color: darkolivegreen;
+}
+
+.debug > .descri{
+    height: 150px;
+    background-color: darkorchid;
+}
 /* /Debug */
 
 
@@ -119,12 +129,13 @@ header{
     margin: 25px 0;
 }
 .tariffe{
-
+    margin-bottom: 100px;
 }
 
 .tre_tar{
     display: flex;
     flex-direction: row;
+    margin-bottom: 25px;
 }
 
 .tar, .tar_cent{
@@ -135,6 +146,14 @@ header{
     margin: 0 5%;
 }
 
+.enterprice{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.titolino{
+    text-align: center;
+}
 /* Sezione Tariffe */
 
 /* /Parte Main */
