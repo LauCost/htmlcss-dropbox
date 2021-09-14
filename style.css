@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+/* Header Main Footer */
+header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+}
+
+/* /Header Main Footer */
+
+
+
+/* Debug */
+
+.debug > header{
+    height: 100px;
+    background-color: rgb(21, 21, 224);
+}
+
+.debug > .nav1{
+    background-color: blueviolet;
+}
+
+.debug > .nav2{
+    background-color: brown;
+}
+
+/* /Debug */
+
+
+
+/* I nav dell'header */
+.nav1, .nav2{
+    width: 50%;
+    height: 100%;
+}
+
+/* /I nav dell'header */
