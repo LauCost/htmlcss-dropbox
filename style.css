@@ -433,10 +433,31 @@ header{
 
 .partner_img{
     margin-right: 5%;
+    width: 50%;
+    background-image: url(./img/partner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont_txt_partner{
+    margin-top: 60px;
+    width: 45%;
 }
 
 .txt_partner{
-    margin-top: 60px;
+    font-size: 19px;
+    margin: 20px 0;
+}
+
+.btn_partner{
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.btn_partner > a{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
 }
 /* /Sezione Trova Partner */
 
