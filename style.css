@@ -184,13 +184,13 @@ header{
     padding: 0 20px;
 }
 
-.nav2 > nav > button, .txt1 > button{
+.btn_blue{
     background-color: #0061FF;
     padding: 8px 20px;
     border: 0px;
 }
 
-.nav2 > nav > button > a, .txt1 > button > a{
+.btn_blue > a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -211,11 +211,12 @@ header{
 }
 
 .cont_90 > h1 {
-    font-size: 560%;
+    font-size: 500%;
     width: 100%;
+    width: 90%;
 }
 .txt1{
-    width: 30%;
+    width: 25%;
     margin-top: 30px;
     font-weight: 600;
 }
@@ -225,7 +226,7 @@ header{
     font-weight: 600;
 }
 
-.txt1 > button{
+.txt1 > .btn_blue{
     margin-top: 25px;
 }
 
@@ -256,8 +257,8 @@ header{
 
 
 
-.cont_55{
-    width: 60%;
+.cont_62{
+    width: 62%;
     margin: 200px auto 0 auto;
 }
 
@@ -269,7 +270,7 @@ header{
 }
 
 .tariffe > h2{
-    font-size: 38px;
+    font-size: 44px;
 }
 
 .opzioni{
@@ -306,14 +307,81 @@ header{
     display: flex;
     flex-direction: row;
     margin-bottom: 25px;
+    
 }
 
 .tar, .tar_cent{
     width: 30%;
+    border: 2px solid #E6E6E7;
 }
 
 .tar_cent{
     margin: 0 5%;
+}
+
+.tito{
+    text-align: center;
+    border-bottom: 2px solid #E6E6E7;
+}
+
+.tito > p{
+    padding: 10px 0;
+}
+
+.cont_tar{
+    width: 90%;
+    margin: 15px auto 250px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tipologia{
+    font-size: 30px;
+}
+
+.prezzo {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.durata{
+    color: #627486;
+    margin-bottom: 25px;
+}
+
+.utente, .memoria, .funzioni{
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.btn_gratis{
+    margin: 50px 0;
+}
+
+.btn_gratis > a{
+    font-size: 18px;
+}
+
+.acquista > a{
+    color: #3582FF;
+}
+
+.linietta{
+    margin: 50px 0;
+    width: 15%;
+    border-top: 0.5px solid #DBDBDD;
+}
+
+.salienti{
+    font-size: 20px;
+}
+
+.vantaggi{
+    margin: 20px 0;
+}
+
+.check{
+    color: #0F6AFF;
 }
 
 .enterprice{
