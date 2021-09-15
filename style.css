@@ -528,6 +528,18 @@ h3{
 .cinque{
     margin: 150px 0 50px 0;
 }
+
+.cinque > h2{
+    width: 54%;
+}
+
+.a{
+    margin: 50px 0;
+}
+
+.a > a{
+    color: #1B72FF;
+}
 /* 7Sezione 500.000 */
 
 
