@@ -206,15 +206,13 @@ header{
 }
 
 .cont_90{
-    width: 90%;
-    height: 100%;
     margin: auto;
     padding: 8%;
 }
 
 .cont_90 > h1 {
-    font-size: 435%;
-    width: 85%;
+    font-size: 560%;
+    width: 100%;
 }
 .txt1{
     width: 30%;
@@ -240,26 +238,26 @@ header{
     text-decoration: none;
     font-size: 50px;
 }
-.img{
+.jumbo{
     position: relative;
 }
 
-.img2{
+.cont_jumbo{
     width: 50%;
     position: absolute;
     right: 17%;
-    bottom: -250px;
+    bottom: -235px;
 }
 
-.img2 > img{
-    width: 150%;
+.cont_jumbo > img{
+    width: 125%;
 }
 /* /Sezione Tutto Ciò Che Ti Serve*/
 
 
 
-.cont_70{
-    width: 70%;
+.cont_55{
+    width: 60%;
     margin: 200px auto 0 auto;
 }
 
@@ -271,7 +269,7 @@ header{
 }
 
 .tariffe > h2{
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .opzioni{
