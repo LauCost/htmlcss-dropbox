@@ -17,6 +17,7 @@ header{
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 1000;
 }
 
 /* /Header Main Footer */
@@ -183,13 +184,13 @@ header{
     padding: 0 20px;
 }
 
-.nav2 > nav > button{
+.nav2 > nav > button, .txt1 > button{
     background-color: #0061FF;
-    padding: 5px 20px;
+    padding: 8px 20px;
     border: 0px;
 }
 
-.nav2 > nav > button > a{
+.nav2 > nav > button > a, .txt1 > button > a{
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -204,28 +205,65 @@ header{
     background-color: #B4D0E7;
 }
 
-.cont_80{
-    width: 80%;
+.cont_90{
+    width: 90%;
     height: 100%;
     margin: auto;
+    padding: 8%;
 }
 
+.cont_90 > h1 {
+    font-size: 435%;
+    width: 85%;
+}
+.txt1{
+    width: 30%;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.txt1 > p{
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.txt1 > button{
+    margin-top: 25px;
+}
+
+.cont_freccia{
+    margin-top: 50px;
+}
+
+.cont_freccia > a{
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+}
 .img{
     position: relative;
 }
 
 .img2{
+    width: 50%;
     position: absolute;
-    right: 0%;
-    bottom: -60px;
+    right: 17%;
+    bottom: -250px;
 }
 
+.img2 > img{
+    width: 150%;
+}
 /* /Sezione Tutto Ciò Che Ti Serve*/
+
+
 
 .cont_70{
     width: 70%;
     margin: 200px auto 0 auto;
 }
+
+
 
 /* Sezione Tariffe */
 .opzioni{
