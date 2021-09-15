@@ -544,6 +544,9 @@ h3{
 
 
 /* Sezione Loghi Vari */
+.cont{
+    background-color: #F5F5F5;
+}
 .loghi{
     display: flex;
     flex-direction: row;
@@ -557,41 +560,81 @@ h3{
 }
 
 .txt_loghi{
+    width: 40%;
+}
+
+.piccolo_logo1, .piccolo_logo2, .piccolo_logo3, .piccolo_logo4, .piccolo_logo5, .piccolo_logo6, .piccolo_logo7, .piccolo_logo8{
     width: 50%;
-    background-color: #F5F5F5;
 }
 
 .piccolo_logo1{
-    background-color: midnightblue;
+    background-color: #A2D39B;
+    border: 10px solid #D0E9CD;
 }
 
 .piccolo_logo2{
-    background-color: navajowhite;
+    background-color: #61082B;
 }
 
 .piccolo_logo3{
-    background-color: olive;
+    background-color: #0093CE;
 }
 
 .piccolo_logo4{
-    background-color: red;
+    background-color: #FF1C1C;
 }
 
-.cont_piccolo{
+.piccolo_logo5{
+    background-color: #D5001F;
+}
+
+.piccolo_logo6{
+    background-color: #B4D0E7;
+}
+
+.piccolo_logo7{
+    background-color: #0D2481;
+}
+
+.piccolo_logo8{
+    background-color: #FFD830;
+}
+
+.cont_piccolo, .cont_piccolo2{
     width: 100%;
     display: flex;
     flex-direction: row;
+    height: 50%;
 }
 
-.piccolo_logo1, .piccolo_logo2, .piccolo_logo3, .piccolo_logo4{
-    width: 50%;
-    height: 100%;
+
+.loghetto{
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
 }
 
-.cont_piccolo2{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+.descri_loghi{
+    width: 90%;
+    margin: 50px auto;
+    font-size: 20px
+}
+
+.img_txt_loghi{
+    width: 30%;
+    margin: 40.875px;
+}
+
+.linietta_loghi{
+    margin-left: 40.875px;
+    width: 10%;
+    border-top: 0.5px solid #DBDBDD;
+}
+
+.firma{
+    margin: 40.875px 0 100px 40.875px;
 }
 /* /Sezione Loghi Vari */
 /* /Parte Main */
