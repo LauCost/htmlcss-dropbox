@@ -20,6 +20,11 @@ header{
     z-index: 1000;
 }
 
+footer{
+    background-color: black;
+    padding: 100px 0 50px 0;
+}
+
 /* /Header Main Footer */
 
 
@@ -638,3 +643,56 @@ h3{
 }
 /* /Sezione Loghi Vari */
 /* /Parte Main */
+
+
+
+/* Footer */
+.cont_90_footer{
+    width: 90%;
+    margin: auto;
+}
+
+.cont_liste{
+    display: flex;
+    flex-direction: row;
+}
+
+.liste{
+    width: 18%;
+    margin: 0 3%;
+}
+
+h5{
+    color: #D1D1D1
+;
+    font-size: 20px;
+}
+
+ul{
+    margin-top: 25px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+li > a{
+    text-decoration: none;
+    color: #E9E9E9;
+}
+
+.linietta_footer{
+    margin-left: 55.188px;
+    width: 7%;
+    border-top: 0.5px solid #909090;
+    margin-top: 150px;
+}
+
+.cont_lingua{
+    margin: 50px 0 30px 55.188px;
+}
+
+.lingua{
+    color: #909090;
+}
+/* /Footer */
