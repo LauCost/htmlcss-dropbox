@@ -303,6 +303,8 @@ header{
     border: 2px solid #E0E0E3;
 }
 
+
+/* Le Tre Tariffe */
 .tre_tar{
     display: flex;
     flex-direction: row;
@@ -383,15 +385,42 @@ header{
 .check{
     color: #0F6AFF;
 }
+/* Le Tre Tariffe */
 
+
+/* Enterprice */
 .enterprice{
     width: 100%;
     margin-top: 50px;
+    border: 2px solid #E6E6E7;
 }
 
 .titolino{
     text-align: center;
 }
+
+.cont_descri{
+    display: flex;
+    margin: 25px auto;
+    width: 90%;
+}
+
+.descri{
+    width: 70%;
+}
+
+.info{
+    margin-top: 35px;
+}
+
+.bottone{
+    width: 30%;
+}
+
+.btn_info{
+    width: 100%;
+}
+/* Enterprice */
 /* Sezione Tariffe */
 
 /* Sezione Trova Partner */
