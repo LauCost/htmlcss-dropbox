@@ -269,7 +269,7 @@ header{
     margin-bottom: 200px;
 }
 
-.tariffe > h2{
+h2{
     font-size: 44px;
 }
 
@@ -433,10 +433,11 @@ header{
 
 .partner_img{
     margin-right: 5%;
-    width: 50%;
+    width: 90%;
     background-image: url(./img/partner.png);
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 700px;
 }
 
 .cont_txt_partner{
@@ -444,8 +445,12 @@ header{
     width: 45%;
 }
 
+.tito_partner{
+    font-size: 23px;
+}
+
 .txt_partner{
-    font-size: 19px;
+    font-size: 13.5px;
     margin: 20px 0;
 }
 
@@ -457,7 +462,7 @@ header{
 .btn_partner > a{
     color: black;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 13.5px;
 }
 /* /Sezione Trova Partner */
 
@@ -470,11 +475,51 @@ header{
 
 .busin, .busin_cent{
     width: 30%;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .busin_cent{
-    margin: 50px 5%;
+    margin: 80px 5%;
+}
+
+.img_busin{
+    background-image: url(./img/business-feature-switching-tools.png);
+}
+
+.img_busin, .img_busin2, .img_busin3, .img_busin4, .img_busin5, .img_busin6{
+    padding-bottom: 275px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_busin2{
+    background-image: url(./img/business-feature-coordinate-it.png);
+}
+
+.img_busin3{
+    background-image: url(./img/business-feature-multi-device.png);
+}
+
+.img_busin4{
+    background-image: url(./img/business-feature-integrations-it.png);
+}
+
+.img_busin5{
+    background-image: url(./img/business-feature-send-files-it.png);
+}
+
+.img_busin6{
+    background-image: url(./img/business-feature-security.png);
+}
+
+h3{
+    font-size: 30px;
+    margin:15px 0;
+}
+
+.txt_busin{
+    margin: 25px 0;
+    font-size: 18px;
 }
 /* /Sezione Dropbox Businnes */
 
