@@ -190,19 +190,26 @@ footer{
 .nav1 > nav > a, .nav2 > nav > a{
     text-decoration: none;
     color: #222222;
-    padding: 0 20px;
+    padding: 35px 20px;
 }
 
 .btn_blue{
     background-color: #0061FF;
     padding: 8px 20px;
     border: 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 .btn_blue > a{
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+.uno:hover, .due:hover, .tre:hover, .quattro:hover, .cinque:hover, .sei:hover{
+    border-bottom: 2px solid blue;
 }
 /* /I nav dell'header */
 
