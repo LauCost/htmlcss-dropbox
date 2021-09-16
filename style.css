@@ -11,6 +11,10 @@
     clear: both;
 }
 /* Header Main Footer */
+body{
+    min-width: 1900px;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -274,7 +278,7 @@ footer{
     margin-bottom: 200px;
 }
 
-h2{
+h2, .h2_porta{
     font-size: 44px;
 }
 
@@ -642,6 +646,36 @@ h3{
     margin: 40.875px 0 100px 40.875px;
 }
 /* /Sezione Loghi Vari */
+
+/* Sezione Porta Dropbox */
+.cont_porta{
+    display: flex;
+    flex-direction: row;
+    padding: 150px 0;
+    margin-top: 0px;
+}
+
+.h2_porta{
+    width: 50%;
+    color: #61082B;
+}
+
+.btn_porta{
+    margin-left: 30%;
+    height: 45px;
+    width: 23%;
+    background-color: white;
+    border: none;
+}
+
+.btn_porta > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #2E2E2E;
+    width: 100%;
+    font-weight: 600;
+}
+/* /Sezione Porta Dropbox */
 /* /Parte Main */
 
 
